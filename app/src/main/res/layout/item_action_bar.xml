@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/bgActionBar"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:padding="4dp"
+        android:src="@drawable/ic_music" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:text="Nice MP3 Player"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+</LinearLayout>

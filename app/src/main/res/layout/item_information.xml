@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/bgmp3"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_song_name_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:padding="6dp"
+        android:text="Anh van yeu em nhu ngay xua"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_tenCaSi_info"
+        android:textSize="16dp"
+        android:text="Đan Trường"
+        android:textColor="@color/bgActionBar"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_size_list_info"
+        android:textSize="16dp"
+        android:text="4/4"
+        android:textColor="@color/bgActionBar"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

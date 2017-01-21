@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_main">
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:background="@color/bgmp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:background="@color/bgmp3"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_current_time"
+            android:layout_width="wrap_content"
+            android:padding="6dp"
+            android:text="00:00"
+            android:gravity="center"
+            android:textColor="@color/bgActionBar"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_song_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:padding="6dp"
+            android:text="Anh van yeu em nhu ngay xua"
+            android:visibility="invisible"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_total_time"
+            android:layout_width="wrap_content"
+            android:padding="6dp"
+            android:text="00:00"
+            android:gravity="center"
+            android:textColor="@color/bgActionBar"
+            android:textSize="16dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/bgActionBar"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_stop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="6dp"
+            android:src="@drawable/state_stop" />
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/state_back" />
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/level_play" />
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/state_next" />
+    </TableRow>
+</LinearLayout>

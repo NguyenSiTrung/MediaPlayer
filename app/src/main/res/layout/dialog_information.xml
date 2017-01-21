@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:gravity="center"
+    android:minWidth="250dp"
+    android:minHeight="250dp"
+    android:background="@color/bgActionBar"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Cô bé mùa đông"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_nameSong_dialog"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Ca Sĩ : "
+        android:layout_marginTop="7dp"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:id="@+id/tv_caSi_dialog"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Album : "
+        android:textSize="16dp"
+        android:layout_marginTop="7dp"
+        android:textStyle="italic"
+        android:id="@+id/tv_album_dialog"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Thời lượng : "
+        android:textSize="16dp"
+        android:layout_marginTop="7dp"
+        android:textStyle="italic"
+        android:id="@+id/tv_thoiLuong_dialog"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+</LinearLayout>
